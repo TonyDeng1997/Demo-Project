@@ -10,7 +10,7 @@
 5.  ```docker run -p 8080:8080 --name {final container name} --link {container name}:mysql -d {container name for mysql}``` This will run the docker on port 8080. You could modify the port by changing the port number on the left side 
 6 . Go to localhost:8080 and check if it works
 
-*The name in {} are arbitrary, but be sure to be consistent.
+*The names in {} are arbitrary, but make sure to be consistent.
 
 ## Troubleshooting With Docker
 run ```docker logs {final container name} to see the list of logs.
