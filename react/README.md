@@ -1,11 +1,13 @@
 # react-docker
 
-This project explains how to run a react application in `docker(https://www.docker.com/)`.
+This project explains how to run a react application in [docker](https://www.docker.com/).
 
 ## Build docker image
 `docker build . -t react-docker`
 ## Run docker container
 `docker run -p 8000:80 react-docker` and Navigate to `http://localhost:8000/`
+-p 8000:80 is to Map TCP port 80 in the container to port 8080 on the Docker host.
+8000 is arbitrary as long as it is not used by another service.
 
 ## Development server
 
