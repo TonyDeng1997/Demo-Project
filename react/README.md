@@ -1,6 +1,6 @@
 # react-docker
 
-This project explains how to run a react application in [docker](https://www.docker.com/).
+This project runs a react application in [docker](https://www.docker.com/). 
 
 ## Build docker image
 `docker build . -t react-docker`
