@@ -15,6 +15,11 @@ Run `yarn start` for a dev sever. Navigate to `http://localhost:3000/`. The app 
 
 ## Build
  * Run `yarn build` to build the project. The build artifacts will be stored in the `build/` directory.
+ 
+## Possible Errors and Solutions
+* “port is currently used by another application”
+  
+  Try to map to another port or find out with sudo lsof -i -n -P | grep TCP on mac to see what service is using that port.
 
 ## Detailed Explanation
  * Go to medium(https://medium.com/@debabrata100/so-you-want-to-dockerize-your-react-app-64fbbb74c217)
