@@ -4,7 +4,14 @@ This project is for EZOPS Interview. The project consists of both frontend(react
 
 The project is able to loads csv files downloaded from [here](https://www.kaggle.com/c/titanic) into the database, then serve those data through restful APIs calling from front end to display to the user.
 
-The user is ablt to delete, modify, insert those entries from the frontend. The user is also able to download a csv file generated from the data that user has modified. 
+## Features
+* CRUD Operations
+* Overview Dashboard
+* Buck Deletion
+* Basic insertion verification
+* Seach 
+* CSV Export
+
 
 ## Project Time Line
 | Date       | Work          | 
