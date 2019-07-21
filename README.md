@@ -22,5 +22,6 @@ The project is able to loads csv files downloaded from [here](https://www.kaggle
 | July 20 | Documentation and check for bugs   |   
 
 
+[Short Walk Through of the App](https://youtu.be/nnIXpEzFAUw)
 
 *Please enter either spring or react folder to see deployment instructions
