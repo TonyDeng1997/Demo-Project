@@ -3,7 +3,7 @@
 1. change database configurations in application.properties file
 2. run ```mvn spring-boot:run```
 ## Develop on your machine with docker 
-1. Download Docker
+1. Download [Docker](https://www.docker.com/)
 2. ```./mvnw install``` to create the jar files 
 3.  ``` docker run --name {container name} -e MYSQL_ROOT_PASSWORD={root password} -e MYSQL_DATABASE={database name} -e MYSQL_USER={username} -e MYSQL_PASSWORD={password} -d mysql:5.6```
 4. Change database name in application properties to container name
@@ -14,4 +14,4 @@
 *The names in {} are arbitrary, but make sure to be consistent.
 
 ## Troubleshooting With Docker
-run ```docker logs {final container name} to see the list of logs.
+run ```docker logs {final container name}``` to see the list of logs.
